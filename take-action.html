@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Take Action - Climate Change Awareness</title>
+    <title>Climate Quiz - Test Your Knowledge</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Take Action Today</h1>
-        <p>Your voice matters. Join our global movement to protect the planet.</p>
+        <h1>Climate Knowledge Quiz</h1>
+        <p>How much do you really know about our planet's future?</p>
     </header>
 
     <nav>
@@ -30,30 +30,43 @@
 
     <main>
         <section>
-            <h2>Join Our Newsletter & Petition</h2>
-            <img src="images/take-action.jpg" alt="Hands holding a small plant with soil" class="page-img">
-            <p>Fill out the form below to stay informed about climate news and join our latest petition to world leaders.</p>
+            <h2>Take the Quiz</h2>
+            <img src="images/take-action.jpg" alt="Hands holding a small plant" class="page-img">
+            <p>After reading through my website, try this quick quiz to see what you've learned!</p>
 
-            <!-- Standard HTML form with an "action" to another page -->
             <form action="thank-you.html">
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                <fieldset style="border: 1px solid #ccc; padding: 1rem; border-radius: 8px; margin-bottom: 1rem;">
+                    <legend style="font-weight: bold; padding: 0 0.5rem;">Question 1</legend>
+                    <p>Which of these is the most significant greenhouse gas released by human activity?</p>
+                    <input type="radio" id="q1a" name="q1" value="oxygen" required>
+                    <label for="q1a">Oxygen</label><br>
+                    <input type="radio" id="q1b" name="q1" value="co2">
+                    <label for="q1b">Carbon Dioxide (CO2)</label><br>
+                    <input type="radio" id="q1c" name="q1" value="nitrogen">
+                    <label for="q1c">Nitrogen</label>
+                </fieldset>
 
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <fieldset style="border: 1px solid #ccc; padding: 1rem; border-radius: 8px; margin-bottom: 1rem;">
+                    <legend style="font-weight: bold; padding: 0 0.5rem;">Question 2</legend>
+                    <p>What is the main goal of the Paris Agreement?</p>
+                    <input type="radio" id="q2a" name="q2" value="limit-1.5" required>
+                    <label for="q2a">Limit global warming to 1.5°C</label><br>
+                    <input type="radio" id="q2b" name="q2" value="more-oil">
+                    <label for="q2b">Increase oil production</label><br>
+                    <input type="radio" id="q2c" name="q2" value="none">
+                    <label for="q2c">There is no goal</label>
+                </fieldset>
 
-                <label for="interest">Area of Interest:</label>
-                <select id="interest" name="interest">
-                    <option value="renewable-energy">Renewable Energy</option>
-                    <option value="ocean-protection">Ocean Protection</option>
-                    <option value="policy-change">Policy & Legislation</option>
-                    <option value="wildlife">Wildlife Conservation</option>
-                </select>
+                <fieldset style="border: 1px solid #ccc; padding: 1rem; border-radius: 8px; margin-bottom: 1rem;">
+                    <legend style="font-weight: bold; padding: 0 0.5rem;">Question 3</legend>
+                    <p>In your own words, why is protecting wildlife important for the climate?</p>
+                    <textarea id="q3" name="q3" rows="4" placeholder="Type your answer here..." required></textarea>
+                </fieldset>
 
-                <label for="message">Why is climate action important to you?</label>
-                <textarea id="message" name="message" rows="5" placeholder="Share your story..." required></textarea>
+                <label for="username">Your Name (to record your score):</label>
+                <input type="text" id="username" name="username" placeholder="Enter your name" required>
 
-                <button type="submit">Sign the Petition & Submit</button>
+                <button type="submit">Submit My Answers</button>
             </form>
         </section>
     </main>
