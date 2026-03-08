@@ -1,4 +1,4 @@
-/* Root Variables for Consistency */
+/* Root variables to keep the colors the same everywhere */
 :root {
     --primary-color: #2c3e50;
     --accent-color: #27ae60;
@@ -8,7 +8,7 @@
     --header-footer-text: #ecf0f1;
 }
 
-/* General Layout */
+/* My Global Styling */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -18,7 +18,7 @@ body {
     color: var(--text-color);
 }
 
-/* Header and Footer Styling */
+/* My Header and Footer Styles */
 header, footer {
     background-color: var(--header-footer-bg);
     color: var(--header-footer-text);
@@ -31,7 +31,7 @@ header h1 {
     font-size: 2.5rem;
 }
 
-/* Navigation Bar */
+/* Sticky Navigation - Found this on a tutorial */
 nav {
     background-color: var(--primary-color);
     padding: 0.5rem 0;
@@ -46,7 +46,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Important for mobile devices */
+    flex-wrap: wrap; /* Helps on mobile phones */
 }
 
 nav ul li {
@@ -66,7 +66,7 @@ nav ul li a:hover {
     border-radius: 4px;
 }
 
-/* Main Content Area */
+/* Main content area box */
 main {
     max-width: 1000px;
     margin: 2rem auto;
@@ -87,17 +87,19 @@ h2, h3 {
     padding-bottom: 0.5rem;
 }
 
-/* Image Styling */
+/* Making my images look better */
 .page-img {
     max-width: 100%;
-    height: auto;
+    max-height: 500px;
+    width: 100%;
+    object-fit: cover;
     border-radius: 8px;
     margin: 1rem 0;
     display: block;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-/* Highlights and Specials */
+/* Styling my highlights boxes */
 .highlight {
     background-color: #e8f5e9;
     padding: 1.5rem;
@@ -105,13 +107,13 @@ h2, h3 {
     border-radius: 4px;
 }
 
-/* Footer Section */
+/* Footer text size */
 footer {
     font-size: 0.9rem;
     padding: 1rem 0;
 }
 
-/* Form Styles for later use */
+/* Styling for my form on the Take Action page */
 form {
     display: flex;
     flex-direction: column;
