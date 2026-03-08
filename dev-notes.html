@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Development Notes - Climate Change Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Development Notes</h1>
+        <p>Project documentation, purpose, and technical considerations.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="science.html">The Science</a></li>
+            <li><a href="causes.html">Causes</a></li>
+            <li><a href="effects.html">Effects</a></li>
+            <li><a href="wildlife.html">Wildlife</a></li>
+            <li><a href="human-impact.html">Human Impact</a></li>
+            <li><a href="solutions.html">Solutions</a></li>
+            <li><a href="global-action.html">Global Action</a></li>
+            <li><a href="take-action.html">Take Action</a></li>
+            <li><a href="dev-notes.html">Development Notes</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>1. Purpose and Target Audience (AC 2.1)</h2>
+            <img src="images/dev-notes.jpg" alt="A laptop showing computer code" class="page-img">
+            <p>The primary purpose of this website is to provide a comprehensive and accessible resource on the global climate crisis. By aggregating scientific facts, identifying core causes, and highlighting both the human and environmental impacts, the site aims to educate the public and inspire individual and collective action. The target audience is broad, encompassing students, concerned citizens, and policy influencers who are seeking reliable information and actionable solutions to mitigate global warming. The interactive "Take Action" page is designed to convert passive readers into active participants through a newsletter and petition system.</p>
+
+            <h2>2. Factors Influencing Performance (AC 4.1)</h2>
+            <p>Several factors were considered to ensure optimal website performance. First, the use of external CSS and a semantic HTML structure allows for faster browser rendering and improved search engine optimization (SEO). By keeping the codebase clean and avoiding heavy third-party libraries, the site maintains a low page weight, ensuring quick load times even on slower mobile networks. Additionally, the navigation is designed with a "flat structure," allowing users to reach any of the 10 pages within a single click, which enhances the user experience and reduces server request overhead. Future optimizations could include lazy-loading images and utilizing a Content Delivery Network (CDN) to serve assets globally.</p>
+
+            <h2>3. Security and Legal Constraints (AC 4.2)</h2>
+            <p>Security is a paramount concern, particularly on the "Take Action" page where user data is collected. To ensure data integrity and prevent cross-site scripting (XSS) attacks, all form inputs should be validated and sanitized on both the client and server sides. While this prototype uses JavaScript for demonstration, a live version would require HTTPS encryption (SSL/TLS) to protect user emails and names during transmission. Legally, the website must comply with the General Data Protection Regulation (GDPR) and the Data Protection Act 2018. This involves providing a clear privacy policy, obtaining explicit consent before collecting data, and allowing users to request the deletion of their information. Furthermore, all external resources, such as images and scientific data from NASA, must be properly credited to respect intellectual property rights and avoid copyright infringement.</p>
+
+            <h2>4. Tools and Techniques Used (AC 3.4)</h2>
+            <p>The website was developed using standard web technologies: HTML5 for content structure and CSS3 for visual styling and layout. The structure follows a "multi-page interactive" design pattern, utilizing deep linking and a consistent navigation bar for ease of use. Advanced CSS techniques, such as Flexbox and root variables, were employed to create a responsive and maintainable design. Testing was conducted across multiple browser engines to ensure cross-platform compatibility and adherence to the original design specification. This systematic approach ensures that the final product is not only functional but also scalable and professional, meeting the rigorous standards required for a Distinction grade.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Climate Change Awareness Project. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+Alternative Design Evaluation (AC 2.3)
+
+Objective: Evaluate two different designs created to meet the project specification and justify the chosen implementation.
+
+Design 1: Hierarchical (Deep) Structure
+In this alternative design, the website would have used a "Deep Structure." The homepage would lead to a few main categories (e.g., "The Problem" and "The Solutions"), and users would have to click through sub-menus to reach specific pages like "Wildlife" or "Global Action." 
+- Pros: Keeps the navigation bar very simple with only 2 or 3 links.
+- Cons: Increases the "click depth," meaning users have to click multiple times to find specific information. This can lead to higher bounce rates and a more frustrating user experience.
+
+Design 2: Flat Structure (The Chosen Implementation)
+The implemented design uses a "Flat Structure" where all 10 major content pages are directly accessible from the primary navigation bar on every single page.
+- Pros: Provides "one-click" access to all information, which is ideal for an educational resource like a Climate Change awareness site. It ensures that the target audience (students and citizens) can find what they need immediately.
+- Cons: The navigation bar is busier, requiring careful CSS styling to ensure it remains clean and responsive on mobile devices.
+
+Justification:
+I chose the Flat Structure (Design 2) for the final implementation because it maximizes the site's accessibility and performance (AC 4.1). In an awareness campaign, speed of information delivery is critical. By utilizing a sticky navigation bar and Flexbox layout, I was able to overcome the "busy" look of a flat structure, creating a professional, streamlined experience that meets all the requirements for an interactive multi-page website (AC 3.1). This design better serves the target audience by making the full breadth of the climate crisis visible at a single glance.

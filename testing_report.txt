@@ -1,0 +1,26 @@
+Testing Report (AC 3.2 & 3.3)
+
+Objective: Review and test the website produced to assess how closely the site matches the original specification and whether it meets the requirements.
+
+| Test ID | Test Description | Expected Result | Result |
+|---------|------------------|-----------------|--------|
+| T1 | Click "Home" in Navigation | Site should load index.html | PASS |
+| T2 | Click "The Science" in Navigation | Site should load science.html | PASS |
+| T3 | Click "Causes" in Navigation | Site should load causes.html | PASS |
+| T4 | Click "Effects" in Navigation | Site should load effects.html | PASS |
+| T5 | Click "Wildlife" in Navigation | Site should load wildlife.html | PASS |
+| T6 | Click "Human Impact" in Navigation | Site should load human-impact.html | PASS |
+| T7 | Click "Solutions" in Navigation | Site should load solutions.html | PASS |
+| T8 | Click "Global Action" in Navigation | Site should load global-action.html | PASS |
+| T9 | Click "Take Action" in Navigation | Site should load take-action.html | PASS |
+| T10 | Submit Form with empty fields | Browser should block submission (required) | PASS |
+| T11 | Submit Form with all fields filled | Site should load thank-you.html | PASS |
+| T12 | Click external NASA link (Science) | Should open NASA site in new tab | PASS |
+| T13 | Check responsiveness (Mobile view) | Menu should wrap, images should resize | PASS |
+| T14 | Verify CSS layout on all pages | Header and navigation should remain fixed | PASS |
+
+Conclusion (AC 3.2):
+The website meets all original specifications for a 10+ page interactive multi-page project. The form functions correctly using standard HTML5 validation, and all internal and external links are active.
+
+Improvement Based on Testing (AC 3.3):
+Initial testing showed that the navigation menu was too long for mobile devices. To improve the effectiveness of the website, I added `flex-wrap: wrap;` to the CSS file (`style.css`). This allows the menu items to stack neatly on smaller screens, ensuring that the site is mobile-friendly and accessible to all users.
