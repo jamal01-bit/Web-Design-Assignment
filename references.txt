@@ -8,10 +8,12 @@ Project Bibliography and References
 - Home Page Image: NASA "Blue Marble" via Unsplash/Wikimedia.
 - Climate Science & Greenhouse Effect: Wikimedia Commons (Public Domain).
 - Industrial/Factory Images: Wikimedia Commons / Pixnio (CC0).
-- Nature & Wildlife Photography: LoremFlickr Public Archive (CC0).
+- Nature & Wildlife Photography: Sir David Attenborough at Great Barrier Reef by DFAT (CC BY 4.0).
+- Global Action: Greta Thunberg 2019 UN Summit by Anders Hellberg (CC BY-SA 4.0).
+- Other Images: LoremFlickr Public Archive (CC0).
 
 3. Technical Tutorials & Resources:
-- W3Schools HTML/CSS Tutorials (Sticky Navigation & Flexbox Layouts). Available at: https://www.w3schools.com/
+- W3Schools HTML/CSS Tutorials (Sticky Navigation & Responsive Layouts). Available at: https://www.w3schools.com/
 - MDN Web Docs (HTML5 Form Validation & Semantic Tags). Available at: https://developer.mozilla.org/
 
 4. Legal & Security Guidelines:
