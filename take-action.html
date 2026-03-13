@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Climate Quiz - Test Your Knowledge</title>
+    <title>Climate Action Survey</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Climate Knowledge Quiz</h1>
-        <p>How much do you really know about our planet's future?</p>
+        <h1>Take Action</h1>
+        <p>How can you contribute to a sustainable future?</p>
     </header>
 
     <nav>
@@ -23,50 +23,53 @@
             <li><a href="human-impact.html">Human Impact</a></li>
             <li><a href="solutions.html">Solutions</a></li>
             <li><a href="global-action.html">Global Action</a></li>
-            <li><a href="take-action.html">Take Action</a></li>
+            <li><a href="take-action.html" class="active">Take Action</a></li>
             <li><a href="dev-notes.html">Development Notes</a></li>
         </ul>
     </nav>
 
     <main>
         <section>
-            <h2>Take the Quiz</h2>
-            <img src="images/take-action.jpg" alt="Hands holding a small plant" class="page-img">
-            <p>After reading through my website, try this quick quiz to see what you've learned!</p>
+            <h2>Climate Contribution Survey</h2>
+            <img src="images/take-action.jpg" alt="Hands holding a plant" class="page-img">
+            <p>Tell us how you are helping the planet! Your feedback helps us understand local climate action.</p>
 
-            <form action="thank-you.html">
-                <fieldset style="border: 1px solid #ccc; padding: 1rem; border-radius: 8px; margin-bottom: 1rem;">
-                    <legend style="font-weight: bold; padding: 0 0.5rem;">Question 1</legend>
-                    <p>Which of these is the most significant greenhouse gas released by human activity?</p>
-                    <input type="radio" id="q1a" name="q1" value="oxygen" required>
-                    <label for="q1a">Oxygen</label><br>
-                    <input type="radio" id="q1b" name="q1" value="co2">
-                    <label for="q1b">Carbon Dioxide (CO2)</label><br>
-                    <input type="radio" id="q1c" name="q1" value="nitrogen">
-                    <label for="q1c">Nitrogen</label>
+            <form action="https://formsubmit.co/nccsmas@gmail.com" method="POST">
+                
+                <input type="hidden" name="_next" value="https://your-github-username.github.io/climate-site/thank-you.html">
+                
+                <fieldset>
+                    <legend>Transport</legend>
+                    <p>How often do you use public transport or walk instead of driving?</p>
+                    <input type="radio" id="s1a" name="transport" value="rarely" required>
+                    <label for="s1a" class="inline-label">Rarely</label><br>
+                    <input type="radio" id="s1b" name="transport" value="occasionally">
+                    <label for="s1b" class="inline-label">Occasionally</label><br>
+                    <input type="radio" id="s1c" name="transport" value="frequently">
+                    <label for="s1c" class="inline-label">Frequently</label>
                 </fieldset>
 
-                <fieldset style="border: 1px solid #ccc; padding: 1rem; border-radius: 8px; margin-bottom: 1rem;">
-                    <legend style="font-weight: bold; padding: 0 0.5rem;">Question 2</legend>
-                    <p>What is the main goal of the Paris Agreement?</p>
-                    <input type="radio" id="q2a" name="q2" value="limit-1.5" required>
-                    <label for="q2a">Limit global warming to 1.5°C</label><br>
-                    <input type="radio" id="q2b" name="q2" value="more-oil">
-                    <label for="q2b">Increase oil production</label><br>
-                    <input type="radio" id="q2c" name="q2" value="none">
-                    <label for="q2c">There is no goal</label>
+                <fieldset>
+                    <legend>Lifestyle Changes</legend>
+                    <p>Which of these actions are you willing to take? (Select all that apply)</p>
+                    <input type="checkbox" id="c1" name="action_recycle" value="yes">
+                    <label for="c1" class="inline-label">Recycling more at home</label><br>
+                    <input type="checkbox" id="c2" name="action_meat" value="yes">
+                    <label for="c2" class="inline-label">Reducing meat consumption</label><br>
+                    <input type="checkbox" id="c3" name="action_energy" value="yes">
+                    <label for="c3" class="inline-label">Switching to energy-efficient bulbs</label>
                 </fieldset>
 
-                <fieldset style="border: 1px solid #ccc; padding: 1rem; border-radius: 8px; margin-bottom: 1rem;">
-                    <legend style="font-weight: bold; padding: 0 0.5rem;">Question 3</legend>
-                    <p>In your own words, why is protecting wildlife important for the climate?</p>
-                    <textarea id="q3" name="q3" rows="4" placeholder="Type your answer here..." required></textarea>
+                <fieldset>
+                    <legend>Your Ideas</legend>
+                    <p>In your own words, what is the best way for a community to help the environment?</p>
+                    <textarea id="s3" name="message" rows="4" placeholder="Share your suggestions..." required></textarea>
                 </fieldset>
 
-                <label for="username">Your Name (to record your score):</label>
-                <input type="text" id="username" name="username" placeholder="Enter your name" required>
+                <label for="username">Your Name:</label>
+                <input type="text" id="username" name="name" placeholder="Enter your name" required>
 
-                <button type="submit">Submit My Answers</button>
+                <button type="submit">Send My Survey Results</button>
             </form>
         </section>
     </main>

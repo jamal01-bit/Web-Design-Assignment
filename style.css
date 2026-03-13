@@ -1,4 +1,8 @@
 /* Global Styling */
+* {
+    box-sizing: border-box; /* The "Gold Standard" fix for alignment issues */
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -48,6 +52,11 @@ nav ul li a:hover {
     color: #27ae60;
 }
 
+/* Highlight the current active page in navigation */
+nav ul li a.active {
+    border-bottom: 2px solid #27ae60;
+}
+
 /* Main Content Area */
 main {
     width: 80%;
@@ -81,25 +90,59 @@ h2, h3 {
 }
 
 /* Form Styles */
-label {
-    display: block;
-    margin-top: 10px;
+form {
+    width: 100%;
 }
 
-input, textarea, select {
-    width: 95%;
-    padding: 10px;
+fieldset {
+    border: 1px solid #cccccc;
+    padding: 20px;
+    margin: 0 0 20px 0;
+    border-radius: 8px;
+    width: 100%; /* Matches the button and main content */
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Fix for radio and checkbox labels */
+.inline-label {
+    display: inline;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+input[type="text"], 
+input[type="email"], 
+textarea, 
+select {
+    width: 100%;
+    padding: 12px;
     margin-top: 5px;
     border: 1px solid #cccccc;
+    border-radius: 4px;
 }
 
 button {
+    display: block;
+    width: 100%; /* Perfect alignment with fieldsets above */
     background-color: #27ae60;
     color: #ffffff;
-    padding: 10px 20px;
+    padding: 15px;
     border: none;
-    margin-top: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
     cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 button:hover {
