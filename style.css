@@ -161,3 +161,13 @@ button:hover {
         opacity: 0;
     }
 }
+
+.green-link {
+    color: #27ae60;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.green-link:hover {
+    text-decoration: underline;
+}
