@@ -78,11 +78,11 @@ h2, h3 {
 
 /* Images */
 .page-img {
-    width: 100%;
-    max-height: 400px; /* Prevents images from being too tall on large screens */
-    object-fit: cover; /* Ensures the image looks good even if it is cropped slightly */
-    height: auto;
-    margin: 10px 0;
+    width: 100%; /* Makes the image as wide as the text container */
+    height: auto; /* Maintains aspect ratio to prevent stretching */
+    display: block;
+    margin: 20px 0; /* Aligns with the text flow */
+    border-radius: 8px; /* Slightly more rounded for a modern look */
 }
 
 /* Highlight Box */
