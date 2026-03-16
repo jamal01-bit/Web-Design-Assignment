@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Climate Action Survey</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -39,9 +38,6 @@
                 <!-- Redirect to thank you page - using exact case that worked -->
                 <input type="hidden" name="_next" value="https://jamal01-bit.github.io/Web-Design-Assignment/thank-you.html">
                 
-                <!-- Custom Email Subject -->
-                <input type="hidden" name="_subject" value="New Climate Survey Submission!">
-                
                 <!-- Disable Captcha to speed up the process -->
                 <input type="hidden" name="_captcha" value="false">
                 
@@ -49,22 +45,22 @@
                     <legend>Transport</legend>
                     <p>How often do you use public transport or walk instead of driving?</p>
                     <input type="radio" id="s1a" name="transport" value="rarely" required>
-                    <label for="s1a" class="inline-label">Rarely</label><br>
+                    <label class="inline-label">Rarely</label><br>
                     <input type="radio" id="s1b" name="transport" value="occasionally">
-                    <label for="s1b" class="inline-label">Occasionally</label><br>
+                    <label class="inline-label">Occasionally</label><br>
                     <input type="radio" id="s1c" name="transport" value="frequently">
-                    <label for="s1c" class="inline-label">Frequently</label>
+                    <label class="inline-label">Frequently</label>
                 </fieldset>
 
                 <fieldset>
                     <legend>Lifestyle Changes</legend>
                     <p>Which of these actions are you willing to take? (Select all that apply)</p>
                     <input type="checkbox" id="c1" name="action_recycle" value="yes">
-                    <label for="c1" class="inline-label">Recycling more at home</label><br>
+                    <label class="inline-label">Recycling more at home</label><br>
                     <input type="checkbox" id="c2" name="action_meat" value="yes">
-                    <label for="c2" class="inline-label">Reducing meat consumption</label><br>
+                    <label class="inline-label">Reducing meat consumption</label><br>
                     <input type="checkbox" id="c3" name="action_energy" value="yes">
-                    <label for="c3" class="inline-label">Switching to energy-efficient bulbs</label>
+                    <label class="inline-label">Switching to energy-efficient bulbs</label>
                 </fieldset>
 
                 <fieldset>
@@ -73,7 +69,7 @@
                     <textarea id="s3" name="message" rows="4" placeholder="Share your suggestions..." required></textarea>
                 </fieldset>
 
-                <label for="username">Your Name:</label>
+                <label>Your Name:</label>
                 <input type="text" id="username" name="name" placeholder="Enter your name" required>
 
                 <button type="submit">Send My Survey Results</button>
