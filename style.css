@@ -59,30 +59,30 @@ nav ul li a.active {
 
 /* Main Content Area */
 main {
-    width: 80%;
-    max-width: 1000px; /* Prevents the site from getting too wide on big monitors */
-    margin: 20px auto;
-    background-color: #ffffff;
-    border: 1px solid #cccccc;
-    padding: 20px;
+    width: 80% ;
+    max-width: 1000px ; /* This stops site from getting too wide on big screens */
+    margin: 20px auto ;
+    background-color: #ffffff ;
+    border: 1px solid #cccccc ;
+    padding: 20px ;
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 20px ;
 }
 
 h2, h3 {
-    color: #2c3e50;
-    border-bottom: 2px solid #27ae60;
+    color: #2c3e50 ;
+    border-bottom: 2px solid #27ae60 ;
 }
 
-/* Images */
+/* Images for the pages */
 .page-img {
-    width: 100%; /* Makes the image as wide as the text container */
-    height: auto; /* Maintains aspect ratio to prevent stretching */
-    display: block;
-    margin: 20px 0; /* Aligns with the text flow */
-    border-radius: 8px; /* Slightly more rounded for a modern look */
+    width: 100% ; /* Images are same width as text container */
+    height: auto ; /* This maintains aspect ratio */
+    display: block ;
+    margin: 20px 0 ; 
+    border-radius: 8px ; 
 }
 
 /* Highlight Box */

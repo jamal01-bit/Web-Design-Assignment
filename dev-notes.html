@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>My Project Notes - Jamal</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href = "style.css">
 </head>
 <body>
 
@@ -14,42 +14,42 @@
 
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="science.html">The Science</a></li>
-            <li><a href="causes.html">Causes</a></li>
-            <li><a href="effects.html">Effects</a></li>
-            <li><a href="wildlife.html">Wildlife</a></li>
-            <li><a href="human-impact.html">Human Impact</a></li>
-            <li><a href="solutions.html">Solutions</a></li>
-            <li><a href="global-action.html">Global Action</a></li>
-            <li><a href="take-action.html">Take Action</a></li>
-            <li><a href="dev-notes.html" class="active">Development Notes</a></li>
+            <li> <a href = "index.html"> Home </a> </li>
+            <li> <a href = "science.html"> The Science </a> </li>
+            <li> <a href = "causes.html"> Causes </a> </li>
+            <li> <a href = "effects.html"> Effects </a> </li>
+            <li> <a href = "wildlife.html"> Wildlife </a> </li>
+            <li> <a href = "human-impact.html"> Human Impact </a> </li>
+            <li> <a href = "solutions.html"> Solutions </a> </li>
+            <li> <a href = "global-action.html"> Global Action </a> </li>
+            <li> <a href = "take-action.html"> Take Action </a> </li>
+            <li> <a href = "dev-notes.html" class = "active"> Development Notes </a> </li>
         </ul>
-    </nav>
+    </nav> <!-- This is the site navigation -->
 
-    <main>
+    <main> <!-- Main development notes section -->
         <section>
             <h2>HTML & CSS Foundations (AC 1.1 - 1.4)</h2>
-            <img src="images/dev-notes.jpg" alt="Laptop with code" class="page-img">
+            <img src = "images/dev-notes.jpg" alt = "Laptop with code" class = "page-img">
             <p>I built this site using <b>HTML5</b> for the structure and <b>CSS3</b> for the design. HTML is basically the skeleton of a website, and I used different tags to define the text and images (AC 1.1). For simple formatting (AC 1.2), I used <b>b</b> to make text bold and <b>br</b> to create line breaks between sentences. I also made a <b>blinker</b> effect using CSS to highlight important warnings so they stand out to the user. I used <b>ordered lists</b> for step-by-step guides and <b>unordered lists</b> for the main menu (AC 1.3). The navigation uses <b>a href</b> tags to link all 11 pages together so people can click around the site easily. By using a single <b>style.css</b> file (AC 1.4), I could control the design of every page at once. This makes the site look professional because every page has the same colors and fonts. I also used <b>margin: auto</b> to center the site and <b>box-sizing</b> to make sure all the boxes stayed the right size.</p>
 
             <h2>Design Strategy & Purpose (AC 2.1 - 2.3)</h2>
-            <p>The main goal of the site is to teach the general public about climate change and why it is urgent (AC 2.1). When I was planning, I looked at two different designs: one with lots of sub-menus and a <b>Flat Structure</b> where every page is just one click away (AC 2.3). I chose the flat structure because it is much easier for users to find what they need quickly. I also set the content width to 80% (AC 4.1). I did this because if the text lines are too long on a big screen, they are hard to read. This makes the site much better for students who are trying to learn from it.</p>
+            <p>The main goal of the site is to teach the general public about climate change and why it is urgent (AC 2.1). When I was planning, I looked at two different designs: one with lots of sub-menus and a <b>Flat Structure</b> where every page is just one click away (AC 2.3). I chose the flat structure because it is much easier for users to find what they need quickly. I also set the content width to 80% (AC 4.1). I did this because if the text lines are too long on a big screen, they are hard to read. This makes the site much better for students who are trying to learn from it.</p> <!-- Notes on design choices -->
 
             <h2>Professional Workflow (AC 3.4)</h2>
             <p>I wrote all the code by hand using the <b>Vim</b> editor in the Linux terminal. I wanted to do this so I could learn how the code actually works instead of just dragging and dropping things. I used <b>Git</b> to save my progress and track every change (AC 3.4). This really helped when I found a 404 error on one of my links. I used <b>git diff</b> to check what I had changed and saw that I had used capital letters in the URL by mistake. I changed it to lowercase, and it worked on GitHub Pages. Saving my work with Git meant I didn't have to worry about breaking the site because I could always go back to an older version.</p>
 
             <h2>Interactivity & Testing (AC 3.1 - 3.3)</h2>
-            <p>To make the site interactive (AC 3.1), I added a "Climate Survey" form. I used a tool called <b>FormSubmit</b> to handle the emails so I didn't have to build a whole database myself. Testing was a very important part of the project (AC 3.2). I checked that the "required" boxes worked so people couldn't send empty forms. I also looked at the site on my phone and my laptop to make sure it looked good on both. Based on my testing (AC 3.3), I turned off the "I am not a robot" check because it was annoying for users, and I updated the redirect link so the "Thank You" page loads as soon as the form is sent. This made the whole process much smoother.</p>
+            <p>To make the site interactive (AC 3.1), I added a "Climate Survey" form. I used a tool called <b>FormSubmit</b> to handle the emails so I didn't have to build a whole database myself. Testing was a very important part of the project (AC 3.2). I checked that the "required" boxes worked so people couldn't send empty forms. I also looked at the site on my phone and my laptop to make sure it looked good on both. Based on my testing (AC 3.3), I turned off the "I am not a robot" check because it was annoying for users, and I updated the redirect link so the "Thank You" page loads as soon as the form is sent. This made the whole process much smoother.</p> <!-- Notes on testing -->
 
             <h2>Legal & Technical Standards (AC 4.1, 4.2)</h2>
             <p>I wanted the site to be fast and safe (AC 4.1). I kept it fast by not using too many heavy images or complicated scripts that slow down the loading time. For legal reasons (AC 4.2), I only used images that are free to use, and I made sure to list my sources like NASA in the bibliography. This means I am not breaking any copyright laws. For security, I used <b>FormSubmit</b> because it uses <b>SSL encryption</b> to keep data safe. This is much better than a basic form because it protects user information and follows privacy laws like GDPR.</p>
-        </section>
+        </section> <!-- End of dev notes section -->
     </main>
 
     <footer>
         <p>Contact us: info@climate-awareness.co.uk | Phone: 0161 496 0123</p>
-    </footer>
+    </footer> <!-- Standard footer -->
 
 </body>
 </html>
