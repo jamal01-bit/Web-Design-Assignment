@@ -15,9 +15,8 @@ nav {
     background-color: #00ff33;
     border-bottom: 2px solid black;
     position: sticky;
-    top: 0;
+    top: 0 ;
     width: 100%;
-    z-index: 1000;
     padding: 10px 0;
 }
 
@@ -49,7 +48,6 @@ ul li a.active {
     border: 1px solid black;
     background-color: yellow;
     padding: 4px 10px;
-    border-radius: 4px;
 }
 
 main {
