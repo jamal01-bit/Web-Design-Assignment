@@ -77,11 +77,21 @@ label {
     font-weight: bold ;
 }
 
+.inline-label {
+    display: inline ;
+    font-weight: normal ;
+    margin-top: 0 ;
+}
+
 input, textarea {
     width: 100% ;
     padding: 8px ;
     margin-top: 5px ;
     border: 1px solid black ;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto ;
 }
 
 button {
