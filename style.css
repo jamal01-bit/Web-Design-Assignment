@@ -1,16 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    color: #000000;
+    background-color: white;
+    color: black;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
 }
 
 nav {
     text-align: center;
-    border-bottom: 1px solid #000000;
-    padding: 10px 0;
+    border-bottom: 1px solid black;
+    padding: 10px;
 }
 
 nav ul {
@@ -24,7 +23,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000000;
+    color: black;
     padding: 5px 15px;
     text-decoration: none;
     font-weight: bold;
@@ -48,24 +47,20 @@ section {
 }
 
 h1 {
-    font-size: 2rem;
-    margin-bottom: 10px;
+    font-size: 32px;
 }
 
 h3 {
-    font-size: 1.5rem;
-    margin-top: 0;
+    font-size: 24px;
 }
 
 h4 {
-    font-size: 1.2rem;
-    margin-top: 0;
+    font-size: 18px;
 }
 
-img.page-img {
+img {
     width: 100%;
     height: auto;
-    display: block;
     margin: 10px 0;
 }
 
@@ -78,29 +73,21 @@ fieldset {
 label {
     display: block;
     margin-top: 10px;
+    font-weight: bold;
 }
 
-.inline-label {
-    display: inline;
-    margin-top: 0;
-}
-
-input[type="text"], textarea {
+input, textarea {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
-    border: 1px solid #000000;
+    border: 1px solid black;
 }
 
 button {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: black;
+    color: white;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
     font-weight: bold;
-}
-
-button:hover {
-    background-color: #333333;
 }
