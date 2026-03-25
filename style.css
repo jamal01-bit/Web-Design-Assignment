@@ -7,16 +7,10 @@ body {
     line-height: 1.6;
 }
 
-header {
-    background-color: #333333;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px;
-}
-
 nav {
-    background-color: #444444;
     text-align: center;
+    border-bottom: 1px solid #000000;
+    padding: 10px 0;
 }
 
 nav ul {
@@ -30,19 +24,18 @@ nav ul li {
 }
 
 nav ul li a {
-    display: block;
-    color: #ffffff;
-    padding: 14px 20px;
+    color: #000000;
+    padding: 5px 15px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 nav ul li a:hover {
-    background-color: #555555;
+    text-decoration: underline;
 }
 
 nav ul li a.active {
-    background-color: #000000;
-    font-weight: bold;
+    text-decoration: underline;
 }
 
 main {
@@ -51,12 +44,22 @@ main {
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
-h2 {
-    border-bottom: 2px solid #333333;
-    padding-bottom: 5px;
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin-top: 0;
 }
 
 img.page-img {
@@ -66,16 +69,10 @@ img.page-img {
     margin: 10px 0;
 }
 
-.highlight {
-    background-color: #eeeeee;
-    padding: 10px;
-    border: 1px solid #cccccc;
-}
-
 fieldset {
-    border: 1px solid #333333;
-    padding: 10px;
-    margin-bottom: 10px;
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
 }
 
 label {
@@ -92,10 +89,11 @@ input[type="text"], textarea {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
+    border: 1px solid #000000;
 }
 
 button {
-    background-color: #333333;
+    background-color: #000000;
     color: #ffffff;
     padding: 10px 20px;
     border: none;
@@ -104,5 +102,5 @@ button {
 }
 
 button:hover {
-    background-color: #555555;
+    background-color: #333333;
 }
