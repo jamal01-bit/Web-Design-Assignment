@@ -48,8 +48,6 @@ nav ul li a.active {
 main {
     width: 80%;
     margin: 20px auto;
-    border: 1px solid #cccccc;
-    padding: 20px;
 }
 
 section {
