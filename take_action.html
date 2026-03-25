@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Climate Action Survey</title>
-    <link rel="stylesheet" href = "style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -14,71 +14,63 @@
 
     <nav>
         <ul>
-            <li> <a href = "index.html"> Home </a> </li>
-            <li> <a href = "science.html"> The Science </a> </li>
-            <li> <a href = "causes.html"> Causes </a> </li>
-            <li> <a href = "effects.html"> Effects </a> </li>
-            <li> <a href = "wildlife.html"> Wildlife </a> </li>
-            <li> <a href = "human_impact.html"> Human Impact </a> </li>
-            <li> <a href = "solutions.html"> Solutions </a> </li>
-            <li> <a href = "global_action.html"> Global Action </a> </li>
-            <li> <a href = "take_action.html" class = "active"> Take Action </a> </li>
-            <li> <a href = "dev_notes.html"> Development Notes </a> </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="science.html">The Science</a></li>
+            <li><a href="causes.html">Causes</a></li>
+            <li><a href="effects.html">Effects</a></li>
+            <li><a href="wildlife.html">Wildlife</a></li>
+            <li><a href="human_impact.html">Human Impact</a></li>
+            <li><a href="solutions.html">Solutions</a></li>
+            <li><a href="global_action.html">Global Action</a></li>
+            <li><a href="take_action.html" class="active">Take Action</a></li>
+            <li><a href="dev_notes.html">Development Notes</a></li>
         </ul>
-    </nav> <!-- This is the main site navigation -->
+    </nav>
 
-    <main> <!-- Survey starts here -->
+    <main>
         <section>
             <h2>Climate Action Survey</h2>
-            <img src = "images/take_action.jpg" alt = "Hands holding a plant" class = "page-img">
+            <img src="images/take_action.jpg" alt="Hands holding a plant" class="page-img">
             <p>Help us understand your contribution to saving the planet!</p>
+        </section>
 
-            <form action = "https://formsubmit.co/nccsmas@gmail.com" method = "POST">
-
-                <!-- Redirect to thank you page -->
-                <input type = "hidden" name = "_next" value = "https://jamal01-bit.github.io/Web-Design-Assignment/thank_you.html">
-
-                <!-- Disable Captcha -->
-                <input type = "hidden" name = "_captcha" value = "false">
+        <section>
+            <form action="https://formsubmit.co/nccsmas@gmail.com" method="POST">
+                <input type="hidden" name="_next" value="https://jamal01-bit.github.io/Web-Design-Assignment/thank_you.html">
+                <input type="hidden" name="_captcha" value="false">
 
                 <fieldset>
-                    <legend>Daily Transport</legend>
                     <p>How often do you use public transport?</p>
-                    <input type = "radio" id = "s1a" name = "transport" value = "rarely" required>
-                    <label for = "s1a" class = "inline-label"> Rarely </label><br>
-                    <input type = "radio" id = "s1b" name = "transport" value = "occasionally">
-                    <label for = "s1b" class = "inline-label"> Occasionally </label><br>
-                    <input type = "radio" id = "s1c" name = "transport" value = "frequently">
-                    <label for = "s1c" class = "inline-label"> Frequently </label>
+                    <input type="radio" id="s1a" name="transport" value="rarely" required>
+                    <label for="s1a" class="inline-label"> Rarely </label><br>
+                    <input type="radio" id="s1b" name="transport" value="occasionally">
+                    <label for="s1b" class="inline-label"> Occasionally </label><br>
+                    <input type="radio" id="s1c" name="transport" value="frequently">
+                    <label for="s1c" class="inline-label"> Frequently </label>
                 </fieldset>
 
                 <fieldset>
-                    <legend>Lifestyle Changes</legend>
                     <p>Which actions are you taking?</p>
-                    <input type = "checkbox" id = "c1" name = "action_recycle" value = "yes">
-                    <label for = "c1" class = "inline-label"> Recycling more </label><br>
-                    <input type = "checkbox" id = "c2" name = "action_meat" value = "yes">
-                    <label for = "c2" class = "inline-label"> Reducing meat consumption </label><br>
-                    <input type = "checkbox" id = "c3" name = "action_energy" value = "yes">
-                    <label for = "c3" class = "inline-label"> Saving energy </label>
+                    <input type="checkbox" id="c1" name="action_recycle" value="yes">
+                    <label for="c1" class="inline-label"> Recycling more </label><br>
+                    <input type="checkbox" id="c2" name="action_meat" value="yes">
+                    <label for="c2" class="inline-label"> Reducing meat consumption </label><br>
+                    <input type="checkbox" id="c3" name="action_energy" value="yes">
+                    <label for="c3" class="inline-label"> Saving energy </label>
                 </fieldset>
 
                 <fieldset>
-                    <legend>Your Feedback</legend>
-                    <label for = "s3"> Any other suggestions? </label>
-                    <textarea id = "s3" name = "message" rows = "4" placeholder = "Tell us more..." required></textarea>
+                    <label for="s3"> Any other suggestions? </label>
+                    <textarea id="s3" name="message" rows="4" placeholder="Tell us more..." required></textarea>
 
-                    <label for = "username"> Your Name: </label>
-                    <input type = "text" id = "username" name = "name" placeholder = "Enter your name" required>
+                    <label for="username"> Your Name: </label>
+                    <input type="text" id="username" name="name" placeholder="Enter your name" required>
                 </fieldset>
 
-                <button type = "submit"> Submit My Results </button>
+                <button type="submit"> Submit My Results </button>
             </form>
         </section>
     </main>
-    <footer>
-        <p>Contact us: info@climate-awareness.co.uk | Phone: 0161 496 0123</p>
-    </footer> <!-- Footer with contact info -->
 
 </body>
 </html>
