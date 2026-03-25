@@ -14,17 +14,17 @@ nav {
     text-align: center;
     background-color: #00ff33;
     border-bottom: 2px solid black;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 0;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 10px 0;
-    position: sticky;
-    top: 0;
-    background-color: #00ff33;
-    width: 100%;
-    z-index: 1000;
+    padding: 0;
 }
 
 ul li {
