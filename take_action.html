@@ -1,78 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Climate Action Survey</title>
-    <link rel="stylesheet" href="style.css">
+ <meta charset="UTF-8">
+ <title>Climate Action Survey</title>
+ <link rel="stylesheet" href="style.css"?
 </head>
 <body>
-
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="science.html">The Science</a></li>
-            <li><a href="causes.html">Causes</a></li>
-            <li><a href="effects.html">Effects</a></li>
-            <li><a href="wildlife.html">Wildlife</a></li>
-            <li><a href="human_impact.html">Human Impact</a></li>
-            <li><a href="solutions.html">Solutions</a></li>
-            <li><a href="global_action.html">Global Action</a></li>
-            <li><a href="take_action.html" class="active">Take Action</a></li>
-            <li><a href="dev_notes.html">Development Notes</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <h1>Take Action</h1>
-        <section>
-            <h3>Climate Action Survey</h3>
-            <img src="images/take_action.jpg" alt="Hands holding a plant">
-            <p>Help us understand your contribution to saving the planet!</p>
-        </section>
-
-        <section>
-            <form action="https://formsubmit.co/nccsmas@gmail.com" method="POST">
-                <input type="hidden" name="_next" value="https://jamal01-bit.github.io/Web-Design-Assignment/thank_you.html">
-                <input type="hidden" name="_captcha" value="false">
-              <section>
-                <fieldset>
-                    <h4>Daily Transport</h4>
-                    <p>How often do you use public transport?</p>
-                    <input type="radio" id="s1a" name="transport" value="rarely" required>
-                    <label for="s1a" class="inline-label"> Rarely </label><br>
-                    <input type="radio" id="s1b" name="transport" value="occasionally">
-                    <label for="s1b" class="inline-label"> Occasionally </label><br>
-                    <input type="radio" id="s1c" name="transport" value="frequently">
-                    <label for="s1c" class="inline-label"> Frequently </label>
-                </fieldset>
-              </section>
-              
-              <section>    
-                <fieldset>
-                    <h4>Lifestyle Changes</h4>
-                    <p>Which actions are you taking?</p>
-                    <input type="checkbox" id="c1" name="action_recycle" value="yes">
-                    <label for="c1" class="inline-label"> Recycling more </label><br>
-                    <input type="checkbox" id="c2" name="action_meat" value="yes">
-                    <label for="c2" class="inline-label"> Reducing meat consumption </label><br>
-                    <input type="checkbox" id="c3" name="action_energy" value="yes">
-                    <label for="c3" class="inline-label"> Saving energy </label>
-                </fieldset>
-              </section> 
-               
-                 <section>  
-                   <fieldset>
-                    <label for="s3"> Any other suggestions? </label>
-                    <textarea id="s3" name="message" rows="4" placeholder="Tell us more..." required></textarea>
-
-                    <label for="username"> Your Name: </label>
-                    <input type="text" id="username" name="name" placeholder="Enter your name" required>
-                </fieldset>
-              </section> 
-                <button type="submit"> Submit My Results </button>
-            </form>
-        </section>
-    </main>
+ <nav>
+  <ul>
+   <li><a href="index.html">Home</a></li>
+   <li><a href="science.html">The Science</a></li>
+   <li><a href="causes.html">Causes</a></li>
+   <li><a href="effects.html">Effects</a></li>
+   <li><a href="wildlife.html">Wildlife</a></li>
+   <li><a href="human_impact.html">Human Impact</a></li>
+   <li><a href="solutions.html">Solutions</a></li>
+   <li><a href="global_action.html">Global Action</a></li>
+   <li><a href="take_action.html" class="active">Take Action</a></li>
+   <li><a href="dev_notes.html">Development Notes</a></li>
+  </ul>
+ </nav>
+ 
+ <h1>Take Action</h1>
+ <section>
+  <h3>Climate Action Survey</h3>
+  <img src="images/take_action.jpg" alt="Hands holding a planet">
+  <p>Help us understand your contribution to saving the planet!</p>
+ </section>
+ 
+ <section>
+  <form action="https://formsubmit.co/nccmas@gmail.com" method="POST">
+   <input type="hidden" name="_next" value="https://jamal01-bit.github.io/Web-Design-Assignment/thank_you.html">
+   <input type="hidden" name="_captcha" value="false"> 
+ 
+ <section>
+  <fieldset>
+   <h4>Daily Transport</h4>
+   <p>How often do you use public transport?</p>
+   <input type="radio" id="rarely" name="transport" value="rarely" required>
+   <label for="rarely" class="inline-label"> Rarely</label><br>
+   <input type="radio" id="occasionally" name="transport" value="occassionaly">
+   <label for="occassionaly" class="inline-label"> Occasionally</label><br>
+   <input type="radio" id="regularly" name="transport" value="regularly">
+   <label for="regularly" class="inline-label"> Regularly</label><br>
+  </fieldset>
+ </section>
+ 
+ <section>
+  <fieldset>
+   <h4>Lifestyle Changes</h4>
+   <p>Which actions are you willing to take?</p>
+   <input type="checkbox" id="recycle" name="action_recycle" value="yes">
+   <label for="recycle" class="inline-label"> Recycling more</label><br>
+   <input type="checkbox" id="meat" name="action_meat" value="yes">
+   <label for="meat" class="inline-label"> Eating less meat</label><br>
+   <input type="checkbox" id="energy" name="action_energy" value="yes">
+   <label for="energy" class="inline-label"> Reducing energy usage</label><br>
+  </fieldset>
+ </section>
+ 
+ <section>
+  <fieldset>
+   <label for="textbox">Any other suggestions?</label>
+   <textarea id="textbox" name="message" rows="2" placeholder="..." required></textarea><br><br>
+   <label for="username">Your Name: </label>
+   <input type="text" id="username" name="name" placeholder="John Smith" required>
+  </fieldset>
+ </section>
+  <button type="submit"> Submit My Results</button>
+  </form>
+ </section>
 
 </body>
-</html>
+</html>    
