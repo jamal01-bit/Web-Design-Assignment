@@ -39,11 +39,11 @@
    <h4>Daily Transport</h4>
    <p>How often do you use public transport?</p>
    <input type="radio" id="rarely" name="transport" value="rarely" required>
-   <label for="rarely" class="inline-label"> Rarely</label><br>
+   <label for="rarely"> Rarely</label><br>
    <input type="radio" id="occasionally" name="transport" value="occasionally">
-   <label for="occasionally" class="inline-label"> Occasionally</label><br>
+   <label for="occasionally"> Occasionally</label><br>
    <input type="radio" id="frequently" name="transport" value="frequently">
-   <label for="frequently" class="inline-label"> Frequently</label><br>
+   <label for="frequently"> Frequently</label><br>
   </fieldset>
  </section>
  
@@ -51,25 +51,29 @@
   <fieldset>
    <h4>Lifestyle Changes</h4>
    <p>Which actions are you willing to take?</p>
-   <input type="checkbox" id="recycle" name="action_recycle" value="yes">
-   <label for="recycle" class="inline-label"> Recycling more</label><br>
-   <input type="checkbox" id="meat" name="action_meat" value="yes">
-   <label for="meat" class="inline-label"> Eating less meat</label><br>
-   <input type="checkbox" id="energy" name="action_energy" value="yes">
-   <label for="energy" class="inline-label"> Reducing energy usage</label><br>
+   <input type="checkbox" id="recycle" name="action_recycle" value="checked">
+   <label for="recycle"> Recycling more</label><br>
+   <input type="checkbox" id="meat" name="action_meat" value="checked">
+   <label for="meat"> Eating less meat</label><br>
+   <input type="checkbox" id="energy" name="action_energy" value="checked">
+   <label for="energy"> Reducing energy usage</label><br>
   </fieldset>
  </section>
  
  <section>
   <fieldset>
-   <label for="textbox">Any other suggestions?</label>
-   <textarea id="textbox" name="message" rows="2" placeholder="..." required></textarea><br>
-   <label for="username">Your Name: </label>
-   <input type="text" id="username" name="name" placeholder="John Smith" required>
+   <h4>Major Causes</h4>
+   <p>What do you think are the biggest causes to climate change?</p>
+   <input type="checkbox" id="fossil fuels" name="action_fuels" value="checked">
+   <label for="fossil fuels"> Vehicles</label><br>
+   <input type="checkbox" id="deforestation" name="action_trees" value="checked">
+   <label for="deforestation"> Deforestation</label><br>
+   <input type="checkbox" id="agriculture" name="action_farms" value="checked">  
+   <label for="agriculture"> Agriculture</label><br>
   </fieldset>
  </section>
   <button type="Submit"> Submit Results</button>
-  <button class="Clear" type="Clear">Clear Results</button>
+  <button type="Reset" type="Clear Results">Clear Results</button>
   </form>
  </section>
 
