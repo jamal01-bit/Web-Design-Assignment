@@ -2,19 +2,18 @@ body {
        font-family: georgian ;
        background-color: #f8f9fa ;
        color: #48494B ;
-       margin: 0 ;
        padding: 0 ;
+       margin: 0 ;
        }
 
 section, h1 {
-             margin: 30px ;
-             padding 0 30px ;
+             margin: 10px 30px 0 30px ;
+             padding 0 15px ;
              }
        
 nav  {
       text-align: center ;
       background-color: #48494B ;
-      border-bottom: 2px solid black ;
       position: sticky ;
       top: 0 ;
       width: 100% ;
@@ -47,16 +46,15 @@ ul li a.active {
 section {
           margin-bottom: 5px ;
           }
-
 img {
       width: 600px ;
-      height: auto ;
+      height: 400px ;
       display: block ;
       margin: 20px 20px 20px 0 ;
       }
 
 fieldset {
-      border: solid black 2px ;
+      border: solid #48494B 2px ;
       }
                     
 button {
@@ -74,5 +72,4 @@ table {
 th, td {
         border: 1px solid black ;
         padding: 10px ;
-        text-align: left ;
         }
